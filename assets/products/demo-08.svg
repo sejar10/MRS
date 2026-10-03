@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 700 920" width="700" height="920">
+    <defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#1b1b18"/><stop offset=".6" stop-color="#6c654e"/><stop offset="1" stop-color="#d9c99b"/></linearGradient><linearGradient id="cloth" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#f8eadb"/><stop offset="1" stop-color="#b56a62"/></linearGradient></defs>
+    <rect width="700" height="920" fill="url(#bg)"/>
+    <ellipse cx="350" cy="820" rx="245" ry="36" fill="rgba(0,0,0,.18)"/>
+    <path d="M250 255 Q350 210 450 255 L510 690 Q350 790 190 690 Z" fill="url(#cloth)" opacity=".96"/>
+    <path d="M260 275 Q350 350 440 275" fill="none" stroke="rgba(255,255,255,.55)" stroke-width="5"/>
+    <path d="M220 310 Q285 365 265 610 M480 310 Q415 365 435 610" fill="none" stroke="rgba(120,50,55,.22)" stroke-width="10"/>
+    <circle cx="350" cy="195" r="64" fill="#d6ab88" opacity=".95"/>
+    <path d="M280 175 Q350 95 420 175 Q388 130 315 132Z" fill="#2a1a17"/>
+    <path d="M155 463 Q350 370 545 463" fill="none" stroke="rgba(255,242,224,.3)" stroke-width="48"/>
+    <text x="350" y="870" text-anchor="middle" fill="rgba(255,249,240,.72)" font-family="Georgia,serif" font-size="26" letter-spacing="6">MRS COLLECTIONS</text>
+    </svg>

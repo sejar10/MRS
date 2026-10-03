@@ -1,0 +1,116 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>MRS Collections — Grace in Every Drape</title>
+  <meta name="description" content="MRS Collections — a modern Indian fashion edit of sarees, kurtis, dresses, tops, co-ord sets, ouses, jewellery and accessories. Enquire directly on WhatsApp.">
+  <meta name="theme-color" content="#fbf7ef">
+  <meta property="og:title" content="MRS Collections">
+  <meta property="og:description" content="Grace in Every Drape — explore the MRS Collections edit.">
+  <meta property="og:type" content="website">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&family=DM+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="announcement"><span>Complimentary styling assistance</span><span class="dot">•</span><span>Enquire directly on WhatsApp</span><span class="dot">•</span><span>New drops every season</span></div>
+
+  <header class="site-header" id="siteHeader">
+    <div class="header-shell">
+      <button class="icon-btn mobile-only" id="menuToggle" aria-label="Open menu" aria-expanded="false">☰</button>
+      <a class="brand" href="#top" aria-label="MRS Collections home">
+        <img src="assets/logo.jpeg" alt="MRS Collections logo">
+      </a>
+      <nav class="desktop-nav" aria-label="Primary navigation">
+        <a href="#shop" data-nav="shop">Shop</a>
+        <a href="#story">Our Story</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="header-actions">
+        <button class="icon-btn" id="searchToggle" aria-label="Search">⌕</button>
+        <button class="selection-btn" id="selectionToggle" aria-label="Open selection bag"><span>Enquiry</span><b id="selectionCount">0</b></button>
+      </div>
+    </div>
+    <div class="mobile-nav" id="mobileNav" hidden>
+      <a href="#shop">Shop</a><a href="#edit">The Et</a><a href="#story">Our Story</a><a href="#contact">Contact</a>
+    </div>
+    <div class="search-panel" id="searchPanel" hidden>
+      <div class="search-wrap"><span>⌕</span><input id="searchInput" type="search" placeholder="Search sarees, kurtis, jewellery…" autocomplete="off"><button id="searchClose" aria-label="Close search">×</button></div>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero section-pad">
+      <div class="hero-copy">
+        <p class="eyebrow">MRS COLLECTIONS</p>
+        <h1>Grace, <em>reimagined.</em></h1>
+        <p class="hero-lede">A contemporary edit of Indian dressing — made for celebrations, everyday beauty and the moments worth remembering.</p>
+        <div class="hero-actions"><a class="btn btn-dark" href="#shop">Explore collection <span>↘</span></a><a class="text-link" href="#story">Discover the story <span>→</span></a></div>
+        <div class="hero-meta"><span>Based in Tamil Nadu</span><span>Curated with intention</span><span>WhatsApp ordering</span></div>
+      </div>
+      <div class="hero-visual">
+        <div class="hero-image-frame"><img src="assets/logo.jpeg" alt="MRS Collections editorial placeholder" fetchpriority="high"></div>
+
+        <div class="hero-caption"><span></span><span></span></div>
+      </div>
+    </section>
+
+    <section class="intro section-pad" id="story">
+      <div class="intro-kicker">A modern wardrobe, rooted in Indian elegance.</div>
+      <div class="intro-grid">
+        <h2>Pieces that feel <em>special</em>, without feeling overdone.</h2>
+        <div><p>From statement sarees to everyday kurtis, MRS Collections brings together colour, craft and modern silhouettes in a curated edit.</p><a class="text-link" href="#shop">Shop the full edit <span>→</span></a></div>
+      </div>
+    </section>
+
+    <section class="category-strip section-pad" aria-label="Shop categories">
+      <div class="section-head"><div><p class="eyebrow">CATEGORIES</p><h2>Find your <em>mood.</em></h2></div><a class="text-link" href="#shop">View all <span>→</span></a></div>
+      <div class="category-grid">
+        <a class="category-card large" href="#shop?category=Sars"><img src="assets/saree-prof.jpg" alt="Sarees"><span>Sarees<small>01</small></span></a>
+        <a class="category-card" href="#shop?category=Kurtis"><img src="assets/editorial/kurtis.svg" alt="Kurtis"><span>Kurtis<small>02</small></span></a>
+        <a class="category-card" href="#shop?category=Dresses"><img src="assets/editorial/dresses.svg" alt="Dresses"><span>Dresses<small>03</small></span></a>
+        <a class="category-card" href="#shop?category=Tops"><img src="assets/editorial/tops.svg" alt="Tops"><span>Tops<small>04</small></span></a>
+        <a class="category-card" href="#shop?category=Co-ord Sets"><img src="assets/editorial/coords.svg" alt="Co-ord sets"><span>Co-ord Sets<small>05</small></span></a>
+        <a class="category-card" href="#shop?category=Blouss"><img src="assets/editorial/blouses.svg" alt="Blouss"><span>Bles<small>06</small></span></a>
+        <a class="category-card" href="#shop?category=Jewellery"><img src="assets/editorial/jewellery.svg" alt="Jewellery"><span>Jewellery<small>07</small></span></a>
+        <a class="category-card" href="#shop?category=Accessories"><img src="assets/editorial/accessories.svg" alt="Accessories"><span>Accessories<small>08</small></span></a>
+      </div>
+    </section>
+
+    </section>
+
+    <section class="shop section-pad" id="shop">
+      <div class="shop-head">
+        <div><p class="eyebrow">04 / SHOP</p><h2>The collection.</h2><p class="muted" id="resultMeta">Curated pieces available to enquire.</p></div>
+        <div class="shop-tools"><button class="filter-trigger" id="filterToggle">Filter / Sort <span>↕</span></button><label class="sort-select"><span>Sort</span><select id="sortSelect"><option value="featured">Featured</option><option value="newest">Newest</option><option value="price-low">Price: low to high</option><option value="price-high">Price: high to low</option></select></label></div>
+      </div>
+      <div class="shop-layout">
+        <aside class="filter-rail" id="filterRail"><div class="filter-title"><span>Filter</span><button id="clearFilters">Clear</button></div><div class="filter-group"><div class="filter-label">Category</div><div id="categoryFilters" class="chip-stack"></div></div><div class="filter-group"><div class="filter-label">Availability</div><label class="check-row"><input type="checkbox" id="availableOnly"><span>Available pieces</span></label></div><div class="filter-note"><span>Need help choosing?</span><a href="https://wa.me/919080807289?text=Hi%20MRS%20Collections%2C%20I%20need%20help%20choosing%20an%20outfit." target="_blank" rel="noopener">Chat with us →</a></div></aside>
+        <div class="product-grid" id="productGrid" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="quote-band section-pad"><div class="quote-inner"><span class="quote-mark">“</span><blockquote>Dress for the feeling you want to remember.</blockquote><p>MRS COLLECTIONS — GRACE IN EVERY DRAPE</p></div></section>
+
+    <section class="contact section-pad" id="contact">
+      <div class="contact-card"><div><p class="eyebrow">05 / PERSONAL SHOPPING</p><h2>Found a piece<br>you love?</h2><p>Send us your selection and we'll help with availability, colours, sizing and the next step.</p></div><div class="contact-actions"><a class="btn btn-dark" href="https://wa.me/919080807289?text=Hi%20MRS%20Collections%2C%20I%27d%20like%20help%20with%20a%20product." target="_blank" rel="noopener">WhatsApp MRS <span>↗</span></a><span>90808 07289</span></div></div>
+    </section>
+  </main>
+
+  <footer class="site-footer"><div class="footer-top"><div class="footer-brand"><img src="assets/mrs-logo.jpeg" alt="MRS Collections"><p>Grace in Every Drape.</p></div><div><span class="footer-label">Explore</span><a href="#shop">Shop</a><a href="#edit">The Edit</a><a href="#story">Our Story</a></div><div><span class="footer-label">Categories</span><a href="#shop?category=Sarees">Sarees</a><a href="#shop?category=Kurtis">Kurtis</a><a href="#shop?category=Jewellery">Jewellery</a><a href="#shop?category=Accessories">Accessories</a></div><div><span class="footer-label">Contact</span><a href="https://wa.me/919080807289" target="_blank" rel="noopener">WhatsApp</a><a href="tel:+919080807289">Call 90808 07289</a></div></div><div class="footer-bottom"><span>© <span id="year"></span> MRS Collections</span><span>Made for modern Indian dressing.</span></div></footer>
+
+  <div class="modal-backdrop" id="productModal" hidden><div class="product-modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle"><button class="modal-close" id="modalClose" aria-label="Close product">×</button><div class="modal-gallery"><div class="modal-main"><img id="modalMainImage" alt=""></div><div class="thumbs" id="modalThumbs"></div></div><div class="modal-info"><p class="eyebrow" id="modalCategory"></p><h2 id="modalTitle"></h2><div class="modal-price" id="modalPrice"></div><p class="modal-desc" id="modalDescription"></p><div class="specs"><div><span>Material</span><strong id="modalMaterial"></strong></div><div><span>Colour story</span><strong id="modalColors"></strong></div><div><span>Availability</span><strong id="modalAvailability"></strong></div></div><div class="modal-actions"><button class="btn btn-dark" id="addSelection">Add to enquiry <span>＋</span></button><a class="btn btn-outline" id="modalWhatsapp" target="_blank" rel="noopener">WhatsApp now <span>↗</span></a></div><p class="modal-note">No payment on this website. Your enquiry is completed directly with MRS Collections on WhatsApp.</p></div></div></div>
+
+  <aside class="selection-drawer" id="selectionDrawer" aria-label="Enquiry selection" aria-hidden="true"><div class="drawer-head"><div><span class="eyebrow">YOUR SELECTION</span><h3>Enquiry bag</h3></div><button class="modal-close" id="drawerClose" aria-label="Close enquiry">×</button></div><div class="drawer-body" id="selectionItems"></div><div class="drawer-footer"><p>Add pieces here and send one WhatsApp enquiry when you're ready.</p><a class="btn btn-dark full" id="selectionWhatsapp" target="_blank" rel="noopener">Send enquiry on WhatsApp <span>↗</span></a><button class="clear-selection" id="clearSelection">Clear selection</button></div></aside>
+  <div class="drawer-backdrop" id="drawerBackdrop"></div>
+  <div class="toast" id="toast" role="status" aria-live="polite"></div>
+
+  <script src="products.js"></script>
+  <script src="app.js" defer></script>
+  <script type="application/ld+json">
+  {"@context":"https://schema.org","@type":"Store","name":"MRS Collections","description":"Modern Indian fashion and accessories.","telephone":"+91-9080807289","url":"https://example.github.io/mrs-collections/","sameAs":["https://wa.me/919080807289"]}
+  </script>
+</body>
+</html>
